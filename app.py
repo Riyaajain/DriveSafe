@@ -14,7 +14,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Twilio API Credentials
-TWILIO_SID = 'ACd5f00f702cc514c7ed2cb4202e9c1711'  # Replace with your actual Twilio SID
+TWILIO_SID = '         '  # Replace with your actual Twilio SID
 TWILIO_AUTH_TOKEN = 'your_auth_token_here'  # Replace with your actual Twilio Auth Token
 FROM_PHONE = '+13194627060'  # Replace with your Twilio phone number
 TO_PHONE = '+1234567890'  # Replace with the recipient phone number
@@ -148,3 +148,4 @@ def get_status():
 
 if __name__ == "__main__":
     app.run(port=5000, debug=True)
+
